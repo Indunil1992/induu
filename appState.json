@@ -1,0 +1,105 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7da95b23-4e5d-4ad4-a1b3-5fef80132777": {
+        "id": "7da95b23-4e5d-4ad4-a1b3-5fef80132777",
+        "parent": null,
+        "name": "induu.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "induu.py",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "python37",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 1,
+          "name": "induu"
+        },
+        "triggers": [
+          {
+            "resourceName": "pubsubggg",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1614749556044
+      },
+      "10bc8f56-05bc-4a33-ba37-25d1cd69b133": {
+        "id": "10bc8f56-05bc-4a33-ba37-25d1cd69b133",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "67231bca-3a31-4190-879b-dc64df076e4d": {
+        "id": "67231bca-3a31-4190-879b-dc64df076e4d",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "7da95b23-4e5d-4ad4-a1b3-5fef80132777"
+    ],
+    "currentFileId": "7da95b23-4e5d-4ad4-a1b3-5fef80132777",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "pubsubggg": {
+        "name": "pubsubggg",
+        "type": "CloudPubSub",
+        "config": {
+          "mode": 0,
+          "topic": {
+            "name": "ggg",
+            "subscriptions": []
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.7.0",
+    "projectName": "induu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1614749696770
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "induu",
+      "url": "https://github.com/Indunil1992/induu"
+    }
+  }
+}
