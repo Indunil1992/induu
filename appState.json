@@ -1,37 +1,37 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "7da95b23-4e5d-4ad4-a1b3-5fef80132777": {
-        "id": "7da95b23-4e5d-4ad4-a1b3-5fef80132777",
+      "03b00d97-4bcb-4140-83f9-2ff9f28214f4": {
+        "id": "03b00d97-4bcb-4140-83f9-2ff9f28214f4",
         "parent": null,
-        "name": "induu.py",
-        "type": "PYTHON_LAMBDA",
+        "name": "induu.js",
+        "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "induu.py",
+        "filePath": "induu.js",
         "cursor": {
           "lineNumber": 2,
           "column": 5
         },
         "config": {
-          "runtime": "python37",
+          "runtime": "nodejs8",
           "handler": "handler",
           "timeout": 60,
           "memory": 128,
-          "triggerType": 1,
+          "triggerType": 0,
           "name": "induu"
         },
         "triggers": [
           {
-            "resourceName": "pubsubggg",
+            "resourceName": "http-trigger",
             "config": {}
           }
         ],
-        "lastUpdated": 1614749556044
+        "lastUpdated": 1620032899003
       },
-      "10bc8f56-05bc-4a33-ba37-25d1cd69b133": {
-        "id": "10bc8f56-05bc-4a33-ba37-25d1cd69b133",
+      "a035408b-86d7-4410-ab46-d114642714ee": {
+        "id": "a035408b-86d7-4410-ab46-d114642714ee",
         "parent": null,
         "name": "index.js",
         "type": "JS_FILE",
@@ -40,8 +40,8 @@
         "isRemovable": false,
         "filePath": "index.js"
       },
-      "67231bca-3a31-4190-879b-dc64df076e4d": {
-        "id": "67231bca-3a31-4190-879b-dc64df076e4d",
+      "1dd3c7fa-318e-42e6-86fe-d11e353a36f9": {
+        "id": "1dd3c7fa-318e-42e6-86fe-d11e353a36f9",
         "parent": null,
         "name": "main.py",
         "type": "PYTHON_FILE",
@@ -52,25 +52,14 @@
       }
     },
     "openFiles": [
-      "7da95b23-4e5d-4ad4-a1b3-5fef80132777"
+      "03b00d97-4bcb-4140-83f9-2ff9f28214f4"
     ],
-    "currentFileId": "7da95b23-4e5d-4ad4-a1b3-5fef80132777",
+    "currentFileId": "03b00d97-4bcb-4140-83f9-2ff9f28214f4",
     "resources": {
       "http-trigger": {
         "name": "http-trigger",
         "type": "http-trigger",
         "config": {}
-      },
-      "pubsubggg": {
-        "name": "pubsubggg",
-        "type": "CloudPubSub",
-        "config": {
-          "mode": 0,
-          "topic": {
-            "name": "ggg",
-            "subscriptions": []
-          }
-        }
       }
     },
     "customTemplate": {
@@ -85,15 +74,15 @@
     }
   },
   "PROJECT_META": {
-    "sigmaVersion": "1.7.0",
+    "sigmaVersion": "1.7.4",
     "projectName": "induu",
     "projectDescription": "",
     "projectVersion": "1.0.0",
-    "projectRegion": "us-east1",
+    "projectRegion": "asia-northeast1",
     "platform": "GCP",
-    "language": "python",
+    "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1614749696770
+    "lastSave": 1620032917744
   },
   "VCS_STATE": {
     "provider": "GitHub",
